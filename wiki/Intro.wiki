@@ -4,4 +4,4 @@
 
   * [knobcontrol Knob control]
   * Gauge control
-  * Stage controller
+  * [stagecontrollercontrol Stage controller]
