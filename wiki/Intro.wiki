@@ -1,0 +1,7 @@
+#summary Basic project information
+
+= Current components =
+
+  * Knob control
+  * Gauge control
+  * Stage controller
