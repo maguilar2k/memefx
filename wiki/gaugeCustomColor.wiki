@@ -2,6 +2,8 @@
 
 = Alternatives =
 
+http://lh6.ggpht.com/_esUBlqKjDzk/SbmJWOFcGXI/AAAAAAAAAy0/nAykYeojxDY/normal.png
+
 You have four alternatives to modify the background of the component:
 
  * Change it color
@@ -10,6 +12,8 @@ You have four alternatives to modify the background of the component:
  * Hide the gauge body and place the component on top of another graphical elements
 
 == Change color ==
+
+http://lh6.ggpht.com/_esUBlqKjDzk/SbmJWX-flnI/AAAAAAAAAy8/6EfM-RTFNS0/backcolor.png
 
 You can apply a new color to the background of the gauge. To do this you need to:
 
@@ -38,3 +42,51 @@ The new color is set in this line:
 {{{
     background: gaugeTypeUsed.customBackground(Color.DARKBLUE)
 }}}
+
+== Using gradient ==
+
+http://lh5.ggpht.com/_esUBlqKjDzk/SbmJWTm2-cI/AAAAAAAAAzE/u5F82Mn_pmk/backgradient.png
+
+Like in the previous example, to apply a gradient to the background of the gauge, you have to create an instance of the type of gauge in use, previously to the definition of the gauge control:
+
+{{{
+    var gaugeTypeUsed=BasicGauge{}
+}}}
+Next, you create you Gauge control
+{{{
+var myGauge = Gauge {
+    ui: gaugeTypeUsed
+    primaryLabel: "Km/H"
+    secondaryLabel: "Current\nSpeed"
+    min: 0.0,
+    max: 100.0
+    dialNumsVisibleEvery: 2
+    translateX: 300
+    speed: Gauge.SLOWEST
+    initialValue: 0
+    value: bind knob2.value
+    dialLongLinesColor: Color.YELLOW
+    background: gaugeTypeUsed.customBackground(
+        RadialGradient {
+        centerX: 60, centerY: 80
+        //focusX: 0.1, focusY: 0.1
+        radius: 103
+        proportional: false
+        stops: [
+            Stop {
+                color: Color.WHITE
+                offset: 0.0
+            },
+            Stop {
+                color: Color.DARKBLUE
+                offset: 1.0
+            }
+        ]
+    })
+};
+}}}
+As you can see, instead of assigning a plain color to the background, you can provide a gradient.
+
+== A custom background ==
+
+Finally, you can provide a complete new background to gauge.
