@@ -15,6 +15,25 @@ This type of gauge (`BasicGauge`) contains basic information about the gauge and
 
 The benefit of using this "types" of gauges, is that, you can replace the switch the whole look-and-feel of a gauge just by replacing the type, without having to adjust all the parameters manually. You just need to replace the `ui:BasicGauge` with a `ui:RectInvGauge` to go from a round basic gauge -with 300 degrees available for the needle to rotate- to a rectangular gauge with and inverted needle with a range of only 180 degrees to rotate.
 
+Now you just need to bind the value in the gauge to a variable or another control and it will do it job:
+{{{
+var gauge1 = Gauge {
+    ui: BasicGauge{}
+    primaryLabel: "Km/H"
+    secondaryLabel: "Speed"
+    min: 0.0, max: 100.0
+    value: bind myValue
+};
+}}}
+You can customize the speed of the rotation of the needle by adding a simple:
+{{{
+    speed: Gauge.SLOW
+}}}
+If you wish to have the gauge responding inmediately to the change of value, use:
+{{{
+    speed: Gauge.INMEDIATE
+}}}
+
   * [gaugeGtypes Check this page for the available gauge types]
   * [gaugeOptions Check this page for the available options for setting up a gauge]
   * [gaugeRanges Check this page for information about highlighted ranges in the gauge]
