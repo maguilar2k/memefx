@@ -52,4 +52,16 @@
 *Needle rotation speed*
  speed: Gauge.FAST (default)
 
- Available options: Gauge.INMEDIATE, Gauge.SLOWEST, Gauge.SLOW, Gauge.FAST, Gauge.FASTEST
+ Available options: `Gauge.INMEDIATE, Gauge.SLOWEST, Gauge.SLOW, Gauge.FAST, Gauge.FASTEST`
+
+*Gauge value. Sets new value to the gauge. It can trigger an animated transition.*
+ value: 0.0 (default)
+
+*Current needle value. Current value pointed by the gauge's needle *
+ currentValue: Number
+
+*Gauge long lines internal radius*
+ internalLongRadDial: gauge type internalLongRadDial (default)
+
+*Gauge long lines external radius*
+ externalLongRadDial: gauge type externalLongRadDial (default)
