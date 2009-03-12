@@ -13,6 +13,7 @@ Documentation:
 
  * [knobSetup Setting up a knob control]
  * [knobOptions Knob control setup options]
+ * [knobTypes Basic knob types]
  * [knobValues Getting the value from a knob control]
  * [knobFunctions Knob control functions]
  * [knobExamples Examples of knobs]
