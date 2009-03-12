@@ -40,7 +40,7 @@ Finally, you have the option to handle two events triggered by the window resize
     };
 }}}
 
-*Note: You must setup a different filename in persistFile, for each application.*
+*Note: You must setup a different filename in _persistFile_, for each non-Java-Web-Start application using the StageController. Java Web Start apps are identified by its URLs. To persist the position and size of a local JavaFX app window, you must provide a different filename for each application.*
 
 
 == Complete code ==
