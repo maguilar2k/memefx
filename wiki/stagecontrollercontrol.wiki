@@ -10,7 +10,7 @@ You can persist the position and/or size of the window (with a simple persist:tr
 
 It can trigger two events that you can handle: onResize and onMove, so, your app can obtain it screen position and size at any moment.
 
- * [http://www.youtube.com/watch?v=DHlLrnF3Qxg Intro/demo video]
+ * [http://www.youtube.com/watch?v=DHlLrnF3Qxg Intro/demo video] (same video on the top)
  * [http://javafxdemo.appspot.com/jfx/stageController.jnlp Java Web Start demo]
 
  * [http://www.youtube.com/watch?v=Jmm6Yd1jlR8 Events handling demo video]
