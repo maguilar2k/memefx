@@ -11,9 +11,9 @@ var gauge1 = Gauge {
 }}}
 Basically you define a new control of the class `Gauge`. Next, you assign visual appearance to the control, a type of control (`ui:BasicGauge{}`).
 
-This type of gauge (`BasicGauge`) contains basic information about the gauge and it appearance. It includes the graphical resources for the control and initial information about it. For example, where is locate the rotating point of the needle in the gauge, which is the minimum and maximum angle for the needle related to the minimum and maximum possible value in the gauge respectively. The radius for the dial lines in the gauge, colors and fonts for the numbers displayed, etc. (those are just initial Parameters that you can replace with you owns).
+This type of gauge (`BasicGauge`) contains basic information about the gauge and it appearance. It includes the graphical resources for the control and initial information about it. For example, where is locate the rotating point of the needle, which is the minimum and maximum angle related to the minimum and maximum values in the gauge respectively. A few radius for the dial lines, numbers and highlighted ranges in the gauge, colors and fonts for the numbers, etc. (those are just initial parameters that you can customize).
 
-The benefit of using this "types" of gauges, is that, you can replace the type of gauge and have a completely different appearance, without having to adjust all the parameters manually for the new type. You just need to replace the `ui:BasicGauge` with a `ui:RectInvGauge` to go from a round basic gauge with 300 degrees for the needle rotation to a rectangular gauge with and inverted needle with only a 180 degrees range.
+The benefit of using this "types" of gauges, is that, you can replace the switch the whole look-and-feel of a gauge just by replacing the type, without having to adjust all the parameters manually. You just need to replace the `ui:BasicGauge` with a `ui:RectInvGauge` to go from a round basic gauge -with 300 degrees available for the needle to rotate- to a rectangular gauge with and inverted needle with a range of only 180 degrees to rotate.
 
   * [gaugeGtypes Check this page for the available gauge types]
   * [gaugeOptions Check this page for the available options for setting up a gauge]
