@@ -1,4 +1,4 @@
-= Gauge =
+= Gauge control =
 
 This component allows you to display value changing information through virtual gauges.
 
