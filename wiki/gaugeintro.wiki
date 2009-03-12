@@ -7,6 +7,6 @@ It includes several basic gauges in different orientations and sizes. You can cu
 You can add highlighted ranges to the gauges or even replace completely their body and background, while you keep all the functionality of the component.
 
   * [http://www.youtube.com/watch?v=OlTELQ1axi4 Intro/demo video]
-  * [http://javafxdemo.appspot.com/jfx/democombo.jnlp Java Web Start demo]
+  * [http://javafxdemo.appspot.com/jfx/democombo.jnlp Java Web Start demo] (Gauge + Knob + Stage Controller)
 
 = Details =
