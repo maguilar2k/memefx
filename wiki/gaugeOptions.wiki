@@ -5,6 +5,8 @@
 *Gauge type. Contains the graphical appearance and basic info about the gauge*
  ui: `BasicGauge`
 
+ available options: `BasicGauge, SquareGauge, SmallGauge, SmallInvGauge, SmallLGauge, SmallRGauge, RectGauge, RectInvGauge, FlatRectGauge, FlatRectInvGauge, CornerLLGauge, CornerLRGauge, CornerULGauge, CornerURGauge`
+
 *Show / hide gauge glass reflextion*
  reflexVisible: true (default)
 
