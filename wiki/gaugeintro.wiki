@@ -2,7 +2,7 @@
 
 = Gauge control =
 
-http://lh6.ggpht.com/_esUBlqKjDzk/Sbipqh8nS0I/AAAAAAAAAwU/Dnuke5iKnQg/cornerLL.png
+<wiki:video url="http://www.youtube.com/watch?v=OlTELQ1axi4"/>
 
 This component allows you to display value changing information through virtual gauges.
 
