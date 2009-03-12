@@ -48,4 +48,4 @@ Stage {
   * [gaugeGtypes Available gauge types]
   * [gaugeOptions Available options for setting up a gauge]
   * [gaugeRanges How to highlight value ranges in the gauge]
-  * [gaugeAppearance How to customize the gauge appearance]
+  * [gaugeCustomColor How to set a custom background]
