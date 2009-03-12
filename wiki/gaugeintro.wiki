@@ -1,5 +1,12 @@
+= Gauge =
+
 This component allows you to display value changing information through virtual gauges.
 
 It includes several basic gauges in different orientations and sizes. You can customize several basic elements in the gauges or create your own using i.e. Adobe Illustrator and by adding a simple inherited JavaFX class.
 
 You can add highlighted ranges to the gauges or even replace completely their body and background, while you keep all the functionality of the component.
+
+  * [http://www.youtube.com/watch?v=OlTELQ1axi4 Intro/demo video]
+  * [http://javafxdemo.appspot.com/jfx/democombo.jnlp Java Web Start demo]
+
+= Details =
