@@ -35,15 +35,14 @@ If you wish to have the gauge responding inmediately to the change of value, use
 {{{
     speed: Gauge.INMEDIATE
 }}}
-
-  * [gaugeGtypes Check this page for the available gauge types]
-  * [gaugeOptions Check this page for the available options for setting up a gauge]
-  * [gaugeRanges Check this page for information about highlighted ranges in the gauge]
-  * [gaugeAppearance Check this page for information about customizing the gauge appearance]
-
 Finally, you can add the control to your app:
 {{{
 Stage {
     scene: Scene {
         content: [ gauge1...
 }}}}
+
+  * [gaugeGtypes Check this page for the available gauge types]
+  * [gaugeOptions Check this page for the available options for setting up a gauge]
+  * [gaugeRanges Check this page for information about highlighted ranges in the gauge]
+  * [gaugeAppearance Check this page for information about customizing the gauge appearance]
