@@ -65,3 +65,15 @@
 
 *Gauge long lines external radius*
  externalLongRadDial: gauge type externalLongRadDial (default)
+
+*Gauge short lines internal radius*
+ internalShortRadDial: gauge type internalShortRadDial(default)
+
+*Gauge short lines external radius*
+ externalShortRadDial: gauge type externalShortRadDial(default)
+
+*Gauge large numbers radius (to calculate position)*
+ largeNumberRadDial: gauge type largeNumberRadDial (default)
+
+*Gauge small numbers radius (to calculate position)*
+ smallNumberRadDial: gauge type smallNumberRadDial (default)
