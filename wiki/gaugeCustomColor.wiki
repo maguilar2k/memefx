@@ -1,0 +1,40 @@
+#summary Gauge custom background
+
+= Alternatives =
+
+You have four alternatives to modify the background of the component:
+
+ * Change it color
+ * Change it color applying a gradient
+ * Replace the whole background with your own graphic elements
+ * Hide the gauge body and place the component on top of another graphical elements
+
+== Change color ==
+
+You can apply a new color to the background of the gauge. To do this you need to:
+
+Create an instance of the type of gauge that you want to use
+{{{
+    var gaugeTypeUsed=BasicGauge{}
+}}}
+Next, you create you Gauge control
+{{{
+var myGauge = Gauge {
+    ui: gaugeTypeUsed
+    primaryLabel: "Km/H"
+    secondaryLabel: "Current\nSpeed"
+    min: 0.0,
+    max: 100.0
+    dialNumsVisibleEvery: 2
+    translateX: 300
+    speed: Gauge.SLOWEST
+    initialValue: 0
+    value: bind knob2.value
+    dialLongLinesColor: Color.YELLOW
+    background: gaugeTypeUsed.customBackground(Color.DARKBLUE)
+};
+}}}
+The new color is set in this line:
+{{{
+    background: gaugeTypeUsed.customBackground(Color.DARKBLUE)
+}}}
