@@ -3,3 +3,32 @@
 = Highlight ranges =
 
 http://lh4.ggpht.com/_esUBlqKjDzk/SblyCY6BojI/AAAAAAAAAys/6e1rwEvQzRE/ranges.png
+
+To highlight value ranges in a gauge, you just need to add in the Gauge definition a sequence of `Gauge.range`s:
+
+{{{
+    highlightRange: [
+        Gauge.range {
+            start: 0
+            end: 70
+            color: Color.GREEN
+            opacity: 0.8
+        },
+        Gauge.range {
+            start: 70
+            end: 90
+            color: Color.YELLOW
+            dialLongLinesColor: Color.YELLOW
+            dialShortLinesColor: Color.YELLOW
+            opacity: 0.5
+        },
+            Gauge.range {
+            start: 90
+            end: 100
+            color: Color.RED
+            dialLongLinesColor: Color.RED
+            dialShortLinesColor: Color.RED
+            opacity: 0.5
+        }
+    ]
+}}}
