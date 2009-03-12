@@ -1,0 +1,6 @@
+#summary Gauge configuration options
+
+= Options =
+
+*Gauge type. Contains the graphical appearance and basic info about the gauge*
+ ui: BasicGauge
