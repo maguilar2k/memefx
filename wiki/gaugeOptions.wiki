@@ -153,7 +153,7 @@
 *Needle noise level (0.0 -> 1.0)*
  noiseLevel: 0.25 (default)
 
-*Replace gauge background ([Check here for more information])*
+*Replace gauge background ( [gaugeCustomColor Check here for more information] )*
  background: Node (New node below the needle and hides ui.background)
 
 *Show / hide gauge body elements*
