@@ -1,0 +1,75 @@
+#summary How to use the Stage Controller
+
+= How to... =
+
+To setup a Stage Controller you just need to instantiate the controlStage class and define [scOptions the behaviors and characteristics] you wish to attach to your application, for example:
+
+{{{
+var cs = controlStage { //persistFile: "testStage.persist"
+    initialPosition:controlStage.RIGHT + controlStage.TOP, persist:true
+    checkMinWidth:true, minWidth:440, checkMinHeight:true, minHeight:270,
+    stickyBorders:true
+};
+}}}
+
+To learn about the available options, visit the [scOptions Options page].
+
+Next, you have to bind the Stage Controller to the Stage position and size attributes:
+
+{{{
+    width: bind cs.width with inverse
+    height: bind cs.height with inverse
+    x: bind cs.x with inverse
+    y: bind cs.y with inverse
+}}}
+
+If you wish for the application to be able to persist it position and/or size through different use sessions, you must include a persistStage() call in your onClose function.
+
+{{{
+    onClose: function() { cs.persistStage() };
+}}}
+
+Finally, you have the option to handle two events triggered by the window resize and move:
+
+{{{
+    onResize: function(e) {
+        println("resize to {e.width},{e.height} at {e.minX},{e.minY}");
+    }
+    onMove: function(e) {
+        println("moved to {e.minX},{e.minY} with {e.width},{e.height}")
+    };
+}}}
+
+*Note: You must setup a different filename in persistFile, for each application.*
+
+
+== Complete code ==
+
+{{{
+var cs = controlStage { //persistFile: "testStage.persist"
+    initialPosition:controlStage.RIGHT + controlStage.TOP, persist:true
+    checkMinWidth:true, minWidth:440, checkMinHeight:true, minHeight:270,
+    stickyBorders:true
+
+    onResize: function(e) {
+        println("resize to {e.width},{e.height} at {e.minX},{e.minY}");
+    }
+    onMove: function(e) {
+        println("moved to {e.minX},{e.minY} with {e.width},{e.height}")
+    };
+
+};
+
+Stage {
+    // bind Stage (window) to the controller
+    width: bind cs.width with inverse
+    height: bind cs.height with inverse
+    x: bind cs.x with inverse
+    y: bind cs.y with inverse
+
+    // on stage close, stores last position and size
+    onClose: function() { cs.persistStage() };
+
+    scene: Scene { 
+        ...
+}}}
