@@ -1,0 +1,24 @@
+#summary Positioning options
+
+= Positioning options =
+
+*Top location*
+ controlStage.TOP
+
+*Bottom location*
+ controlStage.BOTTOM
+
+*Left location*
+ controlStage.LEFT
+
+*Right location*
+ controlStage.RIGHT
+
+*Centered location*
+ controlStage.CENTER
+
+== Combinations ==
+
+You can combine options, for example:
+
+ controlStage.TOP + controlStage.RIGHT
