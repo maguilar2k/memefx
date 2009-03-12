@@ -2,7 +2,7 @@
 
 = How to... =
 
-To setup a Stage Controller you just need to instantiate the ControlStage class and define [scOptions the behaviors and characteristics] you wish to attach to your application, for example:
+To setup a Stage Controller you just need to instantiate the `ControlStage` class and define [scOptions the behaviors and characteristics] you wish to attach to your application, for example:
 
 {{{
 var cs = ControlStage { //persistFile: "testStage.persist"
