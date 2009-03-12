@@ -40,7 +40,9 @@ Finally, you can add the control to your app:
 Stage {
     scene: Scene {
         content: [ gauge1, ...
-}}}}
+    }
+}
+}}}
 == Additional information ==
 
   * [gaugeGtypes Check this page for the available gauge types]
