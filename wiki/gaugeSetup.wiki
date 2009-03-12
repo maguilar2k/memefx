@@ -27,11 +27,11 @@ var gauge1 = Gauge {
     value: bind myValue
 };
 }}}
-You can customize the speed of the rotation of the needle by adding a simple:
+You can customize the speed for the needle rotation by adding a simple:
 {{{
     speed: Gauge.SLOW
 }}}
-If you wish to have the gauge responding inmediately to the change of value, use:
+If you wish to have the gauge responding instantly to the change of value, use:
 {{{
     speed: Gauge.INMEDIATE
 }}}
@@ -39,7 +39,7 @@ Finally, you can add the control to your app:
 {{{
 Stage {
     scene: Scene {
-        content: [ gauge1...
+        content: [ gauge1, ...
 }}}}
 
   * [gaugeGtypes Check this page for the available gauge types]
