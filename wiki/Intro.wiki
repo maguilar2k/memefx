@@ -1,4 +1,5 @@
 #summary Basic project information
+#labels Featured
 
 = Current components =
 
