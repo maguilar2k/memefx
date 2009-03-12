@@ -2,7 +2,7 @@
 
 = Defining a new knob type =
 
-To describe a new type of knob for the control, you just need to create a new class that inherits from basicKnob.
+To describe a new type of knob for the control, you just need to create a new class that inherits from `BasicKnob`.
 
 In this class you can set the path to the graphical resources of the knob (probably an Adobe Illustrator file converted to .FXZ using the JavaFX Production Suite) and set the radius for the gauge lines in this knob (distance from the center of the component to the start and end of the lines in the gauge).
 
@@ -16,7 +16,7 @@ The Netbeans project includes three Adobe Illustrator examples in the root direc
 import javafx.scene.Node;
 import javafx.fxd.UiStub;
 
-public class orangeKnob extends basicKnob {
+public class OrangeKnob extends BasicKnob {
 
     /** JavaFX image format containing the knob
      * Adobe Illustrator converted to fxz format */
@@ -40,5 +40,5 @@ public class orangeKnob extends basicKnob {
 You can always set a custom radius for your knob instances, replacing the default values in the knob type variables (i.e. internalRadDial, etc) while setting up a new knob control. For example:
 
 {{{
-var colorSelector = Knob{ ui: orangeKnob{ internalRadDial:50 }, ...
+var colorSelector = Knob{ ui: OrangeKnob{ internalRadDial:50 }, ...
 }}}
