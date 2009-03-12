@@ -131,3 +131,42 @@
 
 *Needle shadow Y offset*
  shadowY: Integer = -2 (default)
+
+*Show / hide gauge value display*
+ displayVisible: true (default)
+
+*Show / hide gauge primary label*
+ primaryLabelVisible: true
+
+*Show / hide gauge secondary label*
+ secondaryLabelVisible: true
+
+*Show / hide gauge primary and secondary labels*
+ labelsVisible: true (default)
+
+*Show / hide gauge decoration*
+ decorationVisible: true (default)
+
+*Activate noise for the needle *
+ noise: false (default)
+
+*Needle noise level (0.0 -> 1.0)*
+ noiseLevel: 0.25 (default)
+
+*Replace gauge background ([Check here for more information])*
+ background: Node (New node below the needle and hides ui.background)
+
+*Show / hide gauge body elements*
+ bodyVisible: true (default)
+
+*Inverts dial scale*
+reverseScale: Boolean 
+
+*Show / hide dial numbers*
+ noNumbers = false (default)
+
+*Show / hide dial lines*
+ noLines = false (default)
+
+*Use dots instead of lines in the dial*
+ useDots = false (default)
