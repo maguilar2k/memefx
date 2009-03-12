@@ -85,7 +85,7 @@ As you can see, instead of assigning a plain color to the background, you can pr
 
 http://lh6.ggpht.com/_esUBlqKjDzk/SbmNMU8fg6I/AAAAAAAAAzM/LUlIKEmP9P8/backcustom.png
 
-Finally, you can provide a complete new background for the gauge:
+Finally, you can provide a complete new background for the gauge. In this case, you don't need to declare the type of gauge in use separated from the gauge definition, you can provide the new background elements directly in the gauge definition, in the background parameter:
 
 {{{
     background: Group { content: [
