@@ -41,6 +41,7 @@ Stage {
     scene: Scene {
         content: [ gauge1, ...
 }}}}
+== Additional information ==
 
   * [gaugeGtypes Check this page for the available gauge types]
   * [gaugeOptions Check this page for the available options for setting up a gauge]
