@@ -11,7 +11,7 @@ When you setup a knob, you can define different type of parameters for the contr
  * animation (animatedAutoAdjust, integerQuickAdjust, etc)
  * and the initial value
 
-For a detailed explanation of the options, please check [Options this page].
+For a detailed explanation of the options, please check [knobOptions this page].
 
 A general definition of a knob should look like this:
 
@@ -39,6 +39,6 @@ You can get the integer version of the current value in the knob using myKnob.in
 
 After that, you can reset the value in the knob (to the minimum value allowed) using myKnob.reset(). The knob will adjust instantaneously or with an animation, according to the setup of the knob. You can avoid the animation by using myKnob.reset(false)
 
-For other functions available for the knob control, please, check [Functions this page].
+For other functions available for the knob control, please, check [knobFunctions this page].
 
 The knob control allows you to setup a maximum angle (associated to the maximum value handled by the control) higher than 360 degrees, but, the number of lines in the gauge are limited to 360 degrees. Then, you can have a knob that reach it maximum value after many turns, but the number of lines in the gauge are distributed only up to 360 degrees... or in a shorter range if the difference between the minAngle and maxAngle is shorter than 360 degrees.
