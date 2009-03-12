@@ -2,6 +2,8 @@
 
 = Stage Controller =
 
+<wiki:video url="http://www.youtube.com/watch?v=DHlLrnF3Qxg"/>
+
 This class allows you to attach some automatic behaviors to your JavaFX app window (Stage). For example, you can make the window to stick to the edges of the screen with a simple stickyBorders:true or select the borders you want to make sticky, ie. stickyLeft:true
 
 You can persist the position and/or size of the window (with a simple persist:true, persistPosition:true or persistSize:true). You can anchor the window to the borders too (ie. anchorBottom:true). Enforce minimum and maximum sizes or enforce a specific size for the window or keep it in the middle of the screen, etc.
