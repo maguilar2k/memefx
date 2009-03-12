@@ -1,3 +1,5 @@
+#summary How to setup a gauge control
+
 This is the basic form to setup a gauge control:
 
 {{{
