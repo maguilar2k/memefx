@@ -32,3 +32,32 @@ To highlight value ranges in a gauge, you just need to add in the Gauge definiti
         }
     ]
 }}}
+For each range you can define the following parameter:
+
+*Starting value for the range*
+ start: Number
+
+*Ending value for the range*
+ end: Number
+
+*Range color*
+ color: Color
+
+*Range arc internal radius*
+ internalRad: Number
+
+*Range arc external radius*
+ externalRad: Number
+
+*Range arc opacity (0.0 -> 1.0)*
+ opacity: 1.0 (default)
+
+*Color for dial numbers in the range*
+ dialNumsColor: Color
+
+*Color for dial long lines in the range*
+ dialLongLinesColor: Color
+
+*Color for dial short lines in the range*
+ dialShortLinesColor: Color
+
