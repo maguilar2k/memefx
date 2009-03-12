@@ -3,9 +3,9 @@
 = Options =
 
 *Knob definition. Contains the graphical appearance and radius for the gauge lines*
- ui: BasicKnob
+ ui: `BasicKnob`
 
- available options: BasicKnob, OrangeKnob, SwitchKnob
+ available options: `BasicKnob, OrangeKnob, SwitchKnob`
 
 *Contains the current value (can be set by the user)*
  value: 1.0 (default)
