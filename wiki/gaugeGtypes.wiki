@@ -1,0 +1,18 @@
+#summary Gauge Types
+
+= Available basic gauge types =
+
+=== BasicGauge ===
+=== SquareGauge ===
+=== RectGauge ===
+=== RectInvGauge ===
+=== FlatRectGauge ===
+=== FlatRectInvGauge ===
+=== SmallGauge ===
+=== SmallInvGauge ===
+=== SmallLGauge ===
+=== SmallRGauge ===
+=== CornerLLGauge ===
+=== CornerLRGauge ===
+=== CornerULGauge ===
+=== CornerURGauge ===
