@@ -1,6 +1,6 @@
 #summary A knob input control
 
-== Knob Control ==
+= Knob Control =
 
 This component allows the user of a JavaFX app to input data using a virtual knob (similar to a slider).
 
