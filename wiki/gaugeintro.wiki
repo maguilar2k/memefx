@@ -10,3 +10,10 @@ You can add highlighted ranges to the gauges or even replace completely their bo
   * [http://javafxdemo.appspot.com/jfx/democombo.jnlp Java Web Start demo] (Gauge + Knob + Stage Controller)
 
 = Details =
+
+  * [gaugeSetup Setting up a gauge control]
+  * [gaugeOptions Gauge control setup options]
+  * [gaugeValue Setting the gauge's value]
+  * [gaugeCustomColor How to set a custom background color]
+  * [gaugeExamples Gauge examples]
+  * [gaugeDefine Defining a new type of gauge]
