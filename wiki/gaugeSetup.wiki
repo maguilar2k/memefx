@@ -39,7 +39,7 @@ If you wish to have the gauge responding inmediately to the change of value, use
   * [gaugeRanges Check this page for information about highlighted ranges in the gauge]
   * [gaugeAppearance Check this page for information about customizing the gauge appearance]
 
-Once you set de gauge control, you can add it to your app:
+Finally, you can add the control to your app:
 {{{
 Stage {
     scene: Scene {
