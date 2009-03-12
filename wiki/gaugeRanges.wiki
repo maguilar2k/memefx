@@ -68,7 +68,7 @@ For each range you can define the following parameter:
 
 {{{
 var gauge4 = Gauge {
-    ui: control4
+    ui: SquareGauge {}
     decorationVisible: false
     primaryLabel: "Km/H"
     secondaryLabel: "Speed"
