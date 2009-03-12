@@ -2,6 +2,6 @@
 
 = Current components =
 
-  * Knob control
+  * [knobcontrol Knob control]
   * Gauge control
   * Stage controller
