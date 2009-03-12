@@ -63,3 +63,45 @@ For each range you can define the following parameter:
 
 *Color for dial short lines in the range*
  dialShortLinesColor: Color
+
+== Complete code ==
+
+{{{
+var gauge4 = Gauge {
+    ui: control4
+    decorationVisible: false
+    primaryLabel: "Km/H"
+    secondaryLabel: "Speed"
+    secondaryLabelFont: Font { size: 15 }
+    valueColor: Color.CYAN
+    valueFont: Font { size:19 oblique:true name:"Verdana"}
+    min: 0.0, max: 100.0
+    speed: Gauge.FAST
+    initialValue: 0
+    value: bind knob4.value
+    highlightRange: [
+        Gauge.range {
+            start: 0
+            end: 70
+            color: Color.GREEN
+            opacity: 0.8
+        },
+        Gauge.range {
+            start: 70
+            end: 90
+            color: Color.YELLOW
+            dialLongLinesColor: Color.YELLOW
+            dialShortLinesColor: Color.YELLOW
+            opacity: 0.5
+        }
+            Gauge.range {
+            start: 90
+            end: 100
+            color: Color.RED
+            dialLongLinesColor: Color.RED
+            dialShortLinesColor: Color.RED
+            opacity: 0.5
+        }
+    ]
+};
+}}}
