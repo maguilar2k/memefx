@@ -1,0 +1,17 @@
+#summary A knob input control
+
+== Knob Control ==
+
+This component allows the user of a JavaFX app to input data using a virtual knob (similar to a slider).
+
+ * [http://www.youtube.com/watch?v=Cp2es9SGJVc Video with a demo]
+ * [http://javafxdemo.appspot.com/jfx/Knob.jnlp Java Web Start demo]
+
+Documentation:
+
+ * [knobSetup Setting up a knob control]
+ * [knobOptions Knob control setup options]
+ * [knobValues Getting the value from a knob control]
+ * [knobFunctions Knob control functions]
+ * [knobExamples Examples of knobs]
+ * [knobKnobtypedef Defining a new type of Knob]
