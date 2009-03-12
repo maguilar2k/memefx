@@ -16,7 +16,7 @@ For a detailed explanation of the options, please check [knobOptions this page].
 A general definition of a knob should look like this:
 
 {{{
-var myKnob = Knob { ui: basicKnob {}
+var myKnob = Knob { ui: BasicKnob {}
     min: 0, max: 4000, minAngle:0, maxAngle:1440
     dialLinesLongEvery:5, dialLinesNumber:50, dialLinesWidth:1,
     translateX: -30, translateY:100
