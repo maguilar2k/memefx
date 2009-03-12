@@ -40,7 +40,7 @@
 
  Slides window to the specified distance from screen borders.
 
- * corner [Positioning Location] used as reference for the destination of the window
+ * corner [scPositioning Location] used as reference for the destination of the window
  * dx     Horizontal distance to the location
  * dy     Vertical distance to the location
 
