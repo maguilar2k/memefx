@@ -1,0 +1,11 @@
+#summary Getting the screen resolution
+
+= Screen resolution =
+
+You can get the screen resolution in a very simple way:
+
+{{{
+// screen resolution
+var sw:Integer = controlStage.maxScrWidth;
+var sh:Integer = controlStage.maxScrHeight;
+}}}
