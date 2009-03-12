@@ -5,20 +5,32 @@
 = `BasicGauge` =
 http://lh5.ggpht.com/_esUBlqKjDzk/SbipqtRecCI/AAAAAAAAAwM/HT42zlVBtig/basic.png
 
+
+
 = `SquareGauge` =
 http://lh4.ggpht.com/_esUBlqKjDzk/Sbip_CWPiPI/AAAAAAAAAx0/M_xCBM3NMHI/square.png
+
+
 
 = `RectGauge` =
 http://lh6.ggpht.com/_esUBlqKjDzk/Sbip1EC9z-I/AAAAAAAAAxE/f4X5qvIigVE/rect.png
 
+
+
 = `RectInvGauge` =
 http://lh3.ggpht.com/_esUBlqKjDzk/Sbip1F1WR0I/AAAAAAAAAxM/9Cc-QzOtpek/rectinv.png
+
+
 
 = `FlatRectGauge` =
 http://lh5.ggpht.com/_esUBlqKjDzk/Sbip1Gt00oI/AAAAAAAAAw0/ZI06_JqgDUI/flatrect.png
 
+
+
 = `FlatRectInvGauge` =
 http://lh3.ggpht.com/_esUBlqKjDzk/Sbip1GLyPBI/AAAAAAAAAw8/-4UxekIi9zM/flatrectinv.png
+
+
 
 = `SmallGauge` =
 http://lh6.ggpht.com/_esUBlqKjDzk/Sbip-vhru_I/AAAAAAAAAxU/F65XCpX6Cxc/small.png
