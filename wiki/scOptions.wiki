@@ -14,7 +14,7 @@
 *Window height*
  height: 500.0 (default)
 
-*Filename to store persistent data (every app require a different name)*
+*Filename to store persistent data ( every app require a different name )*
  persistFile: "persistStage.pos" (default)
 
 *Persist window size and position through sessions*
@@ -26,7 +26,7 @@
 *Persist window size*
  persistSize: Boolean
 
-*Initial location of the application ([scPositioning check positioning options])*
+*Initial location of the application ( [scPositioning check positioning options] )*
  initialPosition: `ControlStage.CENTER`
 
  Available options: `ControlStage.TOP, ControlStage.BOTTOM, ControlStage.LEFT, ControlStage.RIGHT, ControlStage.CENTER`
