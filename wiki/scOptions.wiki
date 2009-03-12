@@ -109,10 +109,10 @@
 *Anchor to the center of the screen?*
  anchorCenter: false (default)
 
-*Initially, set maximum screen width to the window. Only the first time, if size persist.*
+*Set maximum screen width to the window, initially. Only the first time, if size persist from session to session.*
  initialMaxWidth: Boolean
 
-*Initially, set maximum screen height to the window.  Only the first time, if size persist.*
+*Set maximum screen height to the window, initially.  Only the first time, if size persist from session to session.*
  initialMaxHeight: Boolean
 
 *Enable/disable all the checkings*
