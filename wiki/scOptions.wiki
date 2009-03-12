@@ -26,8 +26,10 @@
 *Persist window size*
  persistSize: Boolean
 
-*Initial location of the application ([Positioning check positioning options])*
- initialPosition: controlStage.Center
+*Initial location of the application ([csPositioning check positioning options])*
+ initialPosition: ControlStage.CENTER
+
+ Available options: ControlStage.TOP, ControlStage.BOTTOM, ControlStage.LEFT, ControlStage.RIGHT, ControlStage.CENTER
 
 *Check minimun window width?*
  checkMinWidth: false (default)
