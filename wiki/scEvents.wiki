@@ -19,8 +19,8 @@ The event handlers receive a Rectangle2D as parameter. It contains the coordinat
 Here is a complete declaration example:
 
 {{{
-var cs = controlStage {
-    initialPosition:controlStage.RIGHT + controlStage.TOP, persist:true
+var cs = ControlStage {
+    initialPosition:ControlStage.RIGHT + ControlStage.TOP, persist:true
     checkMinWidth:true, minWidth:440, checkMinHeight:true, minHeight:270,
     stickyBorders:true
 
@@ -36,8 +36,8 @@ var cs = controlStage {
 You can call a function too:
 
 {{{
-var cs = controlStage { 
-    initialPosition:controlStage.RIGHT + controlStage.TOP, persist:true
+var cs = ControlStage { 
+    initialPosition:ControlStage.RIGHT + ControlStage.TOP, persist:true
     checkMinWidth:true, minWidth:440, checkMinHeight:true, minHeight:270,
     stickyBorders:true
 
