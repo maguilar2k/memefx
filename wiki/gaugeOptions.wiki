@@ -92,3 +92,42 @@
 
 *Maximum number of decimals (in case dialNumsIntegerOnly:false)*
  dialNumsDecimals: 1 (default)
+
+*Gauge dial numbers color *
+ dialNumsColor = gauge type dialNumsColor (default)
+
+*Sequence of highlighted value ranges ( [gaugeRanges Check here for more information] )*
+ highlightRange: Gauge.range[]
+
+*Internal radius for highlighted value range arc. A highlighted range can include its own radius*
+ highlightInternalRad = gauge type highlightInternalRad (default)
+
+*External radius for highlighted value range arc. A highlighted range can include its own radius*
+ highlightExternalRad = gauge type highlightExternalRad (default)
+
+*Gauge dial long lines thick*
+ dialLongLinesWidth: 3 (default)
+
+*Gauge dial short lines thick*
+ dialShortLinesWidth: 1 (default)
+
+*Frequency for gauge long lines (i.e. 3 = |··|··|··|...)*
+ dialLinesLongEvery: 10 (default)
+
+*Quantity of gauge dial lines*
+ dialLinesNumber: 51 (default)
+
+*Dial long lines color*
+ dialLongLinesColor: gauge type dialLongLinesColor (default)
+
+*Dial short lines color*
+ dialShortLinesColor = gauge type dialShortLinesColor (default)
+
+*Needle shadow color*
+ shadowColor: Color.BLACK (default)
+
+*Needle shadow X offset*
+ shadowX: -2 (default)
+
+*Needle shadow Y offset*
+ shadowY: Integer = -2 (default)
