@@ -3,4 +3,51 @@
 = Options =
 
 *Gauge type. Contains the graphical appearance and basic info about the gauge*
- `ui: BasicGauge`
+ ui: `BasicGauge`
+
+*Show / hide gauge glass reflextion*
+ reflexVisible: true (default)
+
+*Font for the display number. Default font set at design time *
+ valueFont: Font 
+
+*Primary label font. Default font set at design time *
+ primaryLabelFont: Font
+
+*Secondary label font. Default font set at design time *
+ secondaryLabelFont: Font
+
+*Color for the display number. Default color set at design time *
+ valueColor: Color
+
+*Primary label color. Default color set at design time *
+ primaryLabelColor: Color
+
+*Secondary label color. Default color set at design time *
+ secondaryLabelColor: Color
+
+*Primary label string. Default string set at design time *
+ primaryLabel: String
+
+*Secondary label string. Default string set at design time *
+ secondaryLabel: String
+
+*Minimum value on the gauge*
+ min: 0.0 (default)
+
+*Maximum value on the gauge*
+ max: 100.0 (default)
+
+*Initial value on the gauge*
+ initialValue: min (default)
+
+*Minimum angle for the gauge dial*
+ minAngle: gauge type minAngle (default)
+
+*Maximum angle for the gauge dial*
+ maxAngle: gauge type maxAngle (default)
+
+*Needle rotation speed*
+ speed: Gauge.FAST (default)
+
+ Available options: Gauge.INMEDIATE, Gauge.SLOWEST, Gauge.SLOW, Gauge.FAST, Gauge.FASTEST
