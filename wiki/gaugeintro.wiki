@@ -15,6 +15,7 @@ You can add highlighted ranges to the gauges or even replace completely their bo
 
   * [gaugeSetup Setting up a gauge control]
   * [gaugeOptions Gauge control setup options]
+  * [gaugeGtypes Predefined gauge types]
   * [gaugeValue Setting the gauge's value]
   * [gaugeCustomColor How to set a custom background color]
   * [gaugeExamples Gauge examples]
