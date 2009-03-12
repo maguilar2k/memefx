@@ -32,6 +32,9 @@ To highlight value ranges in a gauge, you just need to add in the Gauge definiti
         }
     ]
 }}}
+
+== Ranges options == 
+
 For each range you can define the following parameter:
 
 *Starting value for the range*
@@ -60,4 +63,3 @@ For each range you can define the following parameter:
 
 *Color for dial short lines in the range*
  dialShortLinesColor: Color
-
