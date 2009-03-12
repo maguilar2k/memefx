@@ -1,4 +1,4 @@
-#summary Gauge custom background
+in#summary Gauge custom background
 
 = Alternatives =
 
@@ -11,7 +11,7 @@ You have four alternatives to modify the background of the component:
  * Replace the whole background with your own graphic elements
  * Hide the gauge body and place the component on top of another graphical elements
 
-== Change color ==
+== Changing background color ==
 
 http://lh6.ggpht.com/_esUBlqKjDzk/SbmJWX-flnI/AAAAAAAAAy8/6EfM-RTFNS0/backcolor.png
 
@@ -43,7 +43,7 @@ The new color is set in this line:
     background: gaugeTypeUsed.customBackground(Color.DARKBLUE)
 }}}
 
-== Using gradient ==
+== Applying a gradient to the background ==
 
 http://lh5.ggpht.com/_esUBlqKjDzk/SbmJWTm2-cI/AAAAAAAAAzE/u5F82Mn_pmk/backgradient.png
 
@@ -87,6 +87,6 @@ var myGauge = Gauge {
 }}}
 As you can see, instead of assigning a plain color to the background, you can provide a gradient.
 
-== A custom background ==
+== A complete custom background and body ==
 
-Finally, you can provide a complete new background to gauge.
+Finally, you can provide a complete new background for the gauge.
