@@ -2,6 +2,8 @@
 
 = Knob Control =
 
+http://lh4.ggpht.com/_esUBlqKjDzk/Sbla7CYaF8I/AAAAAAAAAyU/t3fZc6LksD4/boton.png
+
 This component allows the user of a JavaFX app to input data using a virtual knob (similar to a slider).
 
  * [http://www.youtube.com/watch?v=Cp2es9SGJVc Video with a demo]
