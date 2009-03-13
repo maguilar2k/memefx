@@ -23,11 +23,11 @@ You can assign a different initial value including the following line into the g
     initialValue: 5.0
 }}}
 
-On the other hand, if you don't specify a speed for the needle rotation, the component will assume the FAST speed, which doesn't mean an instantaneous refresh for the gauge. There are two other options faster that this option (FASTEST and INMEDIATE).
+On the other hand, if you don't specify a speed for the needle rotation, the component will assume the FAST speed, which doesn't mean an instantaneous refresh for the gauge needle. There are two other options faster that this one: FASTEST and INMEDIATE.
 
-The FASTEST option provides a speedier rotation for the needle, while the INMEDIATE setting implies an instantaneous jump of the needle from the curren position to the position corresponding to the new value assigned to the gauge.
+The FASTEST option provides a speedier rotation for the needle, while the INMEDIATE setting implies an instantaneous jump of the needle, from the current position to the new position corresponding to the value assigned to the gauge.
 
-You can provide a different rotational speed including line similar to the following into the gauge definition:
+You can provide a different rotational speed for the gauge control, including the following line into the gauge definition:
 {{{
     speed: Gauge.SLOW
 }}}
