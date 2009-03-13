@@ -1,4 +1,4 @@
-in#summary Gauge custom background
+#summary Gauge custom background
 
 = Alternatives =
 
