@@ -19,6 +19,8 @@ The file requires to containg a few elements and layer, from bottom to the top t
  * jfx:needle (this is the needle element for the gauge)
  * jfx:reflex (this is a semitransparent decoration that mimics a glass reflection)
 
+*Check the "adobe resources" directory for an Adobe Illustrator example*
+
 Now, you must create a new JavaFX class in your project, like this one:
 
 {{{
