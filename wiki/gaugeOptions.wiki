@@ -115,7 +115,7 @@
  dialLinesLongEvery: 10 (default)
 
 *Quantity of gauge dial lines*
- dialLinesNumber: 51 (default)
+ dialLinesQuantity: 51 (default)
 
 *Dial long lines color*
  dialLongLinesColor: gauge type dialLongLinesColor (default)
