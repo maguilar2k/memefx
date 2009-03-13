@@ -4,5 +4,5 @@
 = Current components =
 
   * [knobcontrol Knob control]
-  * Gauge control
+  * [gaugeintro Gauge control]
   * [stagecontrollercontrol Stage controller]
