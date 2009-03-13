@@ -97,7 +97,7 @@
  dialNumsColor = gauge type dialNumsColor (default)
 
 *Sequence of highlighted value ranges ( [gaugeRanges Check here for more information] )*
- highlightRange: Gauge.range[]
+ highlightRange: Gauge.range`[]`
 
 *Internal radius for highlighted value range arc. A highlighted range can include its own radius*
  highlightInternalRad = gauge type highlightInternalRad (default)
