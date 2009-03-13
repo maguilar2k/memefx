@@ -96,6 +96,8 @@ public class MyGaugeType extends BasicGauge {
 }}}
 This class contains basic information about the type of gauge you are creating, like the radius from the center of the needle to the beginning and ending of the dial lines, the distance from the center to the dial numbers, colors, etc. And a reference to the file containing the graphical resources (.fxz).
 
+In the function customBackground, you must code how to draw a custom background for the gauge type. It receives two parameters: color (that can be a color or a gradient) and potentially a custom graphic effect to apply to the background.
+
 Finally, you can instantiate your new gauge in your application:
 {{{
 package newgaugetype;
