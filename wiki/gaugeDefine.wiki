@@ -6,7 +6,7 @@ http://lh5.ggpht.com/_esUBlqKjDzk/SbnxoHOfQ_I/AAAAAAAAAzU/Y_3ZbT8NKRA/customgaug
 
 It is very easy to create a new [gaugeGtypes type of gauge]. Here are the three steps:
 
- * Create the graphical resources (a file .fxz). You can accomplish this using a design tool as Adobe Illustrator having installed the JavaFX production suite (that will allow you to export the Illustrator work to a JavaFX file). Check the [http://code.google.com/p/memefx/downloads/list mygaugetype.zip] file for a complete example (it includes an Adobe Illustrator example).
+ * Create the graphical resources (a file .fxz). You can accomplish this using a design tool as Adobe Illustrator having installed the JavaFX production suite (that will allow you to export the Illustrator work to a JavaFX file). Check the [http://code.google.com/p/memefx/downloads/list newgaugetype.zip] file for a complete example (it includes an Adobe Illustrator example).
 
 The Illustrator file will require a few elements and layer, from the top to the bottom this are the layer:
 
