@@ -6,3 +6,10 @@
   * [knobcontrol Knob control]
   * [gaugeintro Gauge control]
   * [stagecontrollercontrol Stage controller]
+
+= Examples =
+
+  * [http://javafxdemo.appspot.com/jfx/stageController.jnlp Stage Controller basic demo]
+  * [http://javafxdemo.appspot.com/jfx/stageControllerDemo.jnlp Stage Controller events demo]
+  * [http://javafxdemo.appspot.com/jfx/democombo.jnlp Gauge control demo]
+  * [http://javafxdemo.appspot.com/jfx/Knob.jnlp Knob control demo]
