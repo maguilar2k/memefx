@@ -17,7 +17,7 @@ http://lh6.ggpht.com/_esUBlqKjDzk/SbmJWX-flnI/AAAAAAAAAy8/6EfM-RTFNS0/backcolor.
 
 You can apply a new color to the background of the gauge. To do this you need to:
 
-Create an instance of the type of gauge that you want to use
+Create an instance of the [gaugeGtypes type of gauge] that you want to use
 {{{
     var gaugeTypeUsed=BasicGauge{}
 }}}
@@ -44,7 +44,7 @@ The new color is set in this line:
 
 http://lh5.ggpht.com/_esUBlqKjDzk/SbmJWTm2-cI/AAAAAAAAAzE/u5F82Mn_pmk/backgradient.png
 
-Like in the previous example, to apply a gradient to the background of the gauge, you have to create an instance of the type of gauge in use, previously to the definition of the gauge control:
+Like in the previous example, to apply a gradient to the background of the gauge, you have to create an instance of the [gaugeGtypes type of gauge] in use, previously to the definition of the gauge control:
 
 {{{
     var gaugeTypeUsed=BasicGauge{}
@@ -85,9 +85,14 @@ As you can see, instead of assigning a plain color to the background, you can pr
 
 http://lh6.ggpht.com/_esUBlqKjDzk/SbmNMU8fg6I/AAAAAAAAAzM/LUlIKEmP9P8/backcustom.png
 
-Finally, you can provide a complete new background for the gauge. In this case, you don't need to declare the type of gauge in use separated from the gauge definition, you can provide the new background elements directly in the gauge definition, in the background parameter:
+Finally, you can provide a complete new background for the gauge. In this case, you don't need to declare the [gaugeGtypes type of gauge] in use separated from the gauge definition, you can provide the new background elements directly in the gauge definition, in the background parameter:
 
 {{{
+var myGauge = Gauge {
+    ui: FlatRectGauge {}
+
+    ...
+
     background: Group { content: [
             Rectangle {
                 x: 10,
