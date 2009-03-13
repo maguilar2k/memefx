@@ -2,7 +2,7 @@
 
 = Set value =
 
-The main purpose of this component is to display a graphical representation of a value. So, it's vital to handle a couple of concepts.
+The main purpose of this component is to display a graphical representation of a value. So, it's vital to handle a couple of concepts about assigning values to the gauge control.
 
  * You assign a value to the gauge using the `value` parameter in the gauge definition, and probably you will provide this value using a bind statement, to make it variable:
 
