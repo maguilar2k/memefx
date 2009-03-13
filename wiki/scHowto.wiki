@@ -46,8 +46,8 @@ Finally, you have the option to handle two events triggered by the window resize
 == Complete code ==
 
 {{{
-var cs = ControlStage { //persistFile: "testStage.persist"
-    initialPosition:ControlStage.RIGHT + ControlStage.TOP, persist:true
+var cs = ControlStage { persist:true, //persistFile: "appStage.per"
+    initialPosition:ControlStage.RIGHT + ControlStage.TOP
     checkMinWidth:true, minWidth:440, checkMinHeight:true, minHeight:270,
     stickyBorders:true
 
