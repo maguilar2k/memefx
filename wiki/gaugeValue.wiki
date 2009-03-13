@@ -4,12 +4,13 @@
 
 The main purpose of this component is to display a graphical representation of a value. So, it's vital to handle a couple of concepts about assigning values to the gauge control.
 
- * You assign a value to the gauge using the `value` parameter in the gauge definition, and probably you will provide this value using a bind statement, to make it variable:
+ * You assign a value to the gauge using the `value` parameter in the gauge definition. You will probably provide this value using a bind statement, to make it variable:
 
 {{{
     value: bind myValue
 }}}
-Previous to this value assignment you should consider at least two things.
+
+Previous to this value assignment you should consider at least two things:
 
  * The initial value in the gauge at the moment of the new assignment
  * The speed for the needle to go from the current or initial value to the new value provided by you
