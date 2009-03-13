@@ -8,7 +8,7 @@ It is very easy to create a new [gaugeGtypes type of gauge]. Here are the three 
 
  * Create the graphical resources (a .fxz file). You can accomplish this by using a design tool -as Adobe Illustrator- and having installed the JavaFX production suite (that will allow you to export your work from Illustrator to a JavaFX file). Check the [http://code.google.com/p/memefx/downloads/list newgaugetype.zip] file for a complete example (including an Adobe Illustrator file example).
 
-The file requires to containg a few elements and layer, from top to the bottom this are the layer:
+The file requires to containg a few elements and layer, from bottom to the top this are the layer:
 
  * jfx:body (this is the edge for the gauge component)
  * jfx:background (this is the background area in the gauge component)
