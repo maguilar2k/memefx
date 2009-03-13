@@ -1,0 +1,18 @@
+#summary Create a new type of gauge
+
+= Building a custom gauge type =
+
+Creating a new [gaugeGType type of gauge] is very easy. Here are the three steps:
+
+ * Create the graphical resources (a file .fxz). You can accomplish this using a design tool as Adobe Illustrator having installed the JavaFX production suite (that will allow you to export the Illustrator work to a JavaFX file). Check the mygaugetype.zip file for a complete example (it includes an Adobe Illustrator example).
+
+ The Illustrator file will require a few elements and layer, from the top to the bottom this are the layer:
+
+ * jfx:body (this is the 'edges' for the gauge component)
+ * jfx:background (this is the background of the gauge component)
+ * jfx:decoration (this includes all the miscellaneous decoration on the background)
+ * jfx:labels (this layer includes jfx:primarylabel and jfx:secondarylabel)
+ * jfx:display (this is the area to display the numeric value)
+ * jfx:dispvalue (this is the text element to display the numeric value)
+ * jfx:needle (this is the needle in the gauge)
+ * jfx:reflex (this is a semitransparent decoration that mimics a glass reflection)
