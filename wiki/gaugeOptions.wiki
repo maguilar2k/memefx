@@ -52,7 +52,7 @@
 *Needle rotation speed*
  speed: Gauge.FAST (default)
 
- Available options: `Gauge.INMEDIATE, Gauge.SLOWEST, Gauge.SLOW, Gauge.FAST, Gauge.FASTEST`
+ Available options: `Gauge.INMEDIATE, Gauge.SLOWEST, Gauge.SLOW, Gauge.INTERMEDIATE, Gauge.FAST, Gauge.FASTEST`
 
 *Gauge value. Sets a new value for the gauge. It can trigger an animated transition (see speed).*
  value: 0.0 (default)
