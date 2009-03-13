@@ -5,8 +5,8 @@
 To setup a Stage Controller you just need to instantiate the `ControlStage` class and define [scOptions the behaviors and characteristics] you wish to attach to your application, for example:
 
 {{{
-var cs = ControlStage { //persistFile: "testStage.persist"
-    initialPosition:ControlStage.RIGHT + ControlStage.TOP, persist:true
+var cs = ControlStage { persist:true, //persistFile: "appStage.per"
+    initialPosition:ControlStage.RIGHT + ControlStage.TOP 
     checkMinWidth:true, minWidth:440, checkMinHeight:true, minHeight:270,
     stickyBorders:true
 };
@@ -40,7 +40,7 @@ Finally, you have the option to handle two events triggered by the window resize
     };
 }}}
 
-*Note: You must setup a different filename in _persistFile_, for each non-Java-Web-Start application using the Stage Controller. Java Web Start apps are identified by their URLs. To persist the position and size of a local JavaFX app, you must provide a different filename for each one.*
+*Note: You must setup a different filename in _persistFile_ for each application. persistFile is optional for Java Web Start apps, ONLY if the Java Web Start app is the only one in the same URL path.*
 
 
 == Complete code ==
