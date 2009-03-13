@@ -6,17 +6,17 @@ http://lh5.ggpht.com/_esUBlqKjDzk/SbnxoHOfQ_I/AAAAAAAAAzU/Y_3ZbT8NKRA/customgaug
 
 It is very easy to create a new [gaugeGtypes type of gauge]. Here are the three steps:
 
- * Create the graphical resources (a file .fxz). You can accomplish this using a design tool as Adobe Illustrator having installed the JavaFX production suite (that will allow you to export the Illustrator work to a JavaFX file). Check the [http://code.google.com/p/memefx/downloads/list newgaugetype.zip] file for a complete example (it includes an Adobe Illustrator example).
+ * Create the graphical resources (a .fxz file). You can accomplish this by using a design tool -as Adobe Illustrator- and having installed the JavaFX production suite (that will allow you to export your work from Illustrator to a JavaFX file). Check the [http://code.google.com/p/memefx/downloads/list newgaugetype.zip] file for a complete example (including an Adobe Illustrator file example).
 
-The Illustrator file will require a few elements and layer, from the top to the bottom this are the layer:
+The file requires to containg a few elements and layer, from top to the bottom this are the layer:
 
- * jfx:body (this is the 'edges' for the gauge component)
- * jfx:background (this is the background of the gauge component)
+ * jfx:body (this is the edge for the gauge component)
+ * jfx:background (this is the background area in the gauge component)
  * jfx:decoration (this includes all the miscellaneous decoration on the background)
- * jfx:labels (this layer includes jfx:primarylabel and jfx:secondarylabel)
- * jfx:display (this is the area to display the numeric value)
+ * jfx:labels (this layer includes the jfx:primarylabel and jfx:secondarylabel text elements)
+ * jfx:display (this is the background area to display the numeric value)
  * jfx:dispvalue (this is the text element to display the numeric value)
- * jfx:needle (this is the needle in the gauge)
+ * jfx:needle (this is the needle element for the gauge)
  * jfx:reflex (this is a semitransparent decoration that mimics a glass reflection)
 
 Now, you must create a new JavaFX class in your project, like this one:
@@ -67,20 +67,20 @@ public class MyGaugeType extends BasicGauge {
 
     /** internal radius for highlighted arc */
     override public var highlightInternalRad = 87;
-    /** internal radius for highlighted arc */
+    /** externar radius for highlighted arc */
     override public var highlightExternalRad = 89;
 
     /** gauge numbers color */
     override public var dialNumsColor = Color.RED;
-    /** gauge lines color */
+    /** gauge long lines color */
     override public var dialLongLinesColor = Color.RED;
-    /** gauge lines color */
+    /** gauge short lines color */
     override public var dialShortLinesColor = Color.RED;
 
     /** URL to gauge graphical resources */
     override public var url = "{__DIR__}mygaugetype.fxz";
 
-    /** gauge custom backgroun
+    /** gauge custom background
     * @param color Fill for custom background (can be a Color, RadialGradient, etc)
      * @param effect Graphical effect applied to the custom background
      */
@@ -94,11 +94,11 @@ public class MyGaugeType extends BasicGauge {
     };
 }
 }}}
-This class contains basic information about the type of gauge you are creating, like the radius from the center of the needle to the beginning and ending of the dial lines, the distance from the center to the dial numbers, colors, etc. And a reference to the file containing the graphical resources (.fxz).
+This class contains basic information about the type of gauge you are creating, like the radius/distance from the needle rotating point to the starting and ending points for the dial lines, the distance from the center to the dial numbers, lines and numbers colors, etc. and a reference to the file containing the graphical resources (.fxz) for the gauge.
 
-In the function customBackground, you must code how to draw a custom background for the gauge type. It receives two parameters: color (that can be a color or a gradient) and potentially a custom graphic effect to apply to the background.
+In the `customBackground` function, you must code how to draw a customized background for the gauge type. This function receives two parameters: color (can be a color or a gradient) and and optional graphic effect to apply to the background.
 
-Finally, you can instantiate your new gauge in your application:
+Finally, you can instantiate your new gauge in the application:
 {{{
 package newgaugetype;
 
