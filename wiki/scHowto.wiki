@@ -5,7 +5,7 @@
 To setup a Stage Controller you just need to instantiate the `ControlStage` class and define [scOptions the behaviors and characteristics] you wish to attach to your application, for example:
 
 {{{
-var cs = ControlStage { persist:true, //persistFile: "appStage.per"
+var cs = ControlStage { persist:true, persistFile: "appStage.per"
     initialPosition:ControlStage.RIGHT + ControlStage.TOP 
     checkMinWidth:true, minWidth:440, checkMinHeight:true, minHeight:270,
     stickyBorders:true
@@ -23,7 +23,7 @@ Next, you have to bind the Stage Controller to the Stage position and size attri
     y: bind cs.y with inverse
 }}}
 
-If you wish for the application to be able to persist it position and/or size through different use sessions, you must include a persistStage() call in your onClose function.
+If you wish for the application to be able to persist it position and/or size through different sessions, you must include a persistStage() call at the Stage onClose function.
 
 {{{
     onClose: function() { cs.persistStage() };
@@ -46,7 +46,7 @@ Finally, you have the option to handle two events triggered by the window resize
 == Complete code ==
 
 {{{
-var cs = ControlStage { persist:true, //persistFile: "appStage.per"
+var cs = ControlStage { persist:true, persistFile: "appStage.per"
     initialPosition:ControlStage.RIGHT + ControlStage.TOP
     checkMinWidth:true, minWidth:440, checkMinHeight:true, minHeight:270,
     stickyBorders:true
