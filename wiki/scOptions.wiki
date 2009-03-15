@@ -76,7 +76,7 @@
 *Enforce all screen edges?*
  limitBorders: Boolean
 
-*Distance to stick to the border*
+*Distance to stick to the screen edges*
  stickyDistance: 40 (default)
 
 *Sticky top edge?*
