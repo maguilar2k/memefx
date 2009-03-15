@@ -17,7 +17,7 @@ This type of gauge (`BasicGauge`) contains basic information about the gauge and
 
 The benefit of using this "types" of gauges, is that, you can replace and switch the whole look-and-feel of a gauge just by replacing the type, without having to adjust all the parameters manually. You just need to replace the `ui:BasicGauge` with a `ui:RectInvGauge` to go from a round basic gauge -with 300 degrees available for the needle to rotate- to a rectangular gauge with and inverted needle with a range of only 180 degrees to rotate.
 
-Now you just need to bind the value in the gauge to a variable or another control and it will do it job:
+Now you just need to bind the value in the gauge to a variable or another control and it will do its job:
 {{{
 var gauge1 = Gauge {
     ui: BasicGauge{}
