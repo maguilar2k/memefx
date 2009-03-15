@@ -11,7 +11,7 @@ var gauge1 = Gauge {
     value: 50.0
 };
 }}}
-Basically you define a new control of the class `Gauge`. Next, you assign visual appearance to the control, a type of control (`ui:BasicGauge{}`).
+Basically you define a new control of the class `Gauge`. Next, you assign a visual appearance to the control, a type of control (`ui:BasicGauge{}`).
 
 This type of gauge (`BasicGauge`) contains basic information about the gauge and it appearance. It includes the graphical resources for the control and initial information about it. For example, where is locate the rotating point of the needle, which is the minimum and maximum angle related to the minimum and maximum values in the gauge respectively. A few radius for the dial lines, numbers and highlighted ranges in the gauge, colors and fonts for the numbers, etc. (those are just initial parameters that you can customize).
 
