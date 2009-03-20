@@ -30,10 +30,12 @@ var accordion = ImagesAccordion{
             // item events
             onMouseEntered: enter
             onMousePressed: click
-        }
+        },
+        ImageItem {
 
         ...
 
+        },
     ]
 };
 }}}
