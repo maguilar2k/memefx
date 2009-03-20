@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-= How to configure an ImageAccordion =
+= How to configure an Image Accordion =
 
 This component allows you to create a animated set of images. It can be use to display pictures or as a visual menu. You can bind functions to the images (on Enter, on Press, on Exit).
 
@@ -18,6 +18,7 @@ var accordion = ImagesAccordion{
     }
 
     images: [
+
         ImageItem {
             id: "moais",
             caption: "Moais"
@@ -31,11 +32,13 @@ var accordion = ImagesAccordion{
             onMouseEntered: enter
             onMousePressed: click
         },
+
         ImageItem {
 
         ...
 
         },
+
     ]
 };
 }}}
