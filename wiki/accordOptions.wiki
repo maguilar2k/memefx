@@ -26,8 +26,11 @@
 *Vertical caption text font*
  * captionFont: Font { size: 24 }
 
-*Time to detect mouse exiting accordion*
- * timeOnExit: 0.5s
+*Time to hide vertical caption*
+ * timeToHideCaption: 1s
+
+*Time to show vertical caption*
+ * timeToShowCaption: 1s
 
 *Time to expand selected image*
  * timeToExpand: 0.5s
@@ -35,29 +38,8 @@
 *Time to show extended message*
  * timeToMessage: 1s
 
-*Time to hightlight (brighter) the selected image*
- * timeToNormalLevel: 0.5s
-
-*Time to dark (darker) the unselected images*
- * timeToDarkLevel: 0.5s
-
-*Time to hide vertical caption*
- * timeToHideCaption: 1s
-
-*Time to show vertical caption*
- * timeToShowCaption: 1s
-
 *Time to fade in extended message*
  * timeFadeInMessage: 0.5s
-
-*Deselet item on exit*
- * hideOnExit: true
-
-*Dark level for unselect images*
- * darkLevel: -0.5
-
-*Normal level for select image*
- * normalLevel: 0.0
 
 *Extended message border space*
  * messageBorder: 10.0
@@ -65,8 +47,26 @@
 *Extended message corner arc*
  * messageArc: 10.0
 
+*Time to highlight (brighter) the selected image*
+ * timeToNormalLevel: 0.5s
+
+*Normal level for select image*
+ * normalLevel: 0.0
+
+*Time to dark (darker) the unselected images*
+ * timeToDarkLevel: 0.5s
+
+*Dark level for unselect images*
+ * darkLevel: -0.5
+
 *Interpolator applied on items movement*
  * interpolator: `SpringInterpolator` { mass: 2.0, bounce: true, stiffness: 10 }
+
+*Time to detect mouse exiting accordion*
+ * timeOnExit: 0.5s
+
+*Deselect item on exit*
+ * hideOnExit: true
 
 *Function associated to mouse leaving the accordion*
  * onAccordionExited: function():Void
