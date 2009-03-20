@@ -2,5 +2,5 @@
 
 = Images Accordion =
 
-* [accordConfig Accordion configuration]
-* [accordOptions Accordion options]
+ * [accordHowto How to configure an `ImageAccordion`]
+ * [accordOptions Accordion options]
