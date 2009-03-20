@@ -66,7 +66,7 @@
  * messageArc: 10.0
 
 *Interpolator applied on items movement*
- * interpolator: SpringInterpolator { mass: 2.0, bounce: true, stiffness: 10 }
+ * interpolator: `SpringInterpolator` { mass: 2.0, bounce: true, stiffness: 10 }
 
 *Function associated to mouse leaving the accordion*
  * onAccordionExited: function():Void
@@ -75,7 +75,7 @@
  * selectOnPressed: false
 
 *Items for the accordion*
- * images: ImageItem[]
+ * images: `ImageItem[]`
 
 == Accordion Items ==
 
@@ -107,7 +107,7 @@
  * messageFont: Font { size: 14 }
 
 *Function associated to click on the image*
- * onMousePressed: function(ImageItem)
+ * onMousePressed: function(`ImageItem`)
 
 *Function associated to mouse over the image*
- * onMouseEntered: function(ImageItem)
+ * onMouseEntered: function(`ImageItem`)
