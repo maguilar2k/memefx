@@ -1,5 +1,6 @@
 #summary ImageAccordion Intro
 
-= ImageAccordion =
+= Images Accordion =
 
+* [accordConfig Accordion configuration]
 * [accordOptions Accordion options]
