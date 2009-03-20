@@ -77,7 +77,7 @@
 *Items for the accordion*
  * images: `ImageItem[]`
 
-== Accordion Items ==
+= Accordion Items =
 
 *Item id*
  * id: String
