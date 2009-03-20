@@ -77,6 +77,8 @@
 *Items for the accordion*
  * images: `ImageItem[]`
 
+----
+
 = Accordion Items =
 
 *Item id*
