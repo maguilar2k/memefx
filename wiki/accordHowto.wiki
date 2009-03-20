@@ -2,7 +2,7 @@
 
 = How to configure an Image Accordion =
 
-This component allows you to create a animated set of images. It can be use to display pictures or as a visual menu. You can bind functions to the images (on Enter, on Press, on Exit).
+This component allows you to create a animated set of images. It can be use to display pictures or as a visual menu. You can bind functions to the images (on Enter, on Press, on Exit). Check the [accordOptions available options for this component]
 
 = Details =
 
