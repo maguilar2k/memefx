@@ -44,10 +44,10 @@ var popupCircle = PopupMenu{
 };
 }}}
 
-Now, we define the functions called when a user selects a menu option (the "type of call" used indicates the parameters the menu will return).
+Now, we define the functions called when a user selects a menu option (the "type of call" used indicate the parameters the menu will return).
 
 callId returns the Node id
-callNode returns a reference to the Node where the popup menu was launched
+callNode returns a reference to the Node over which the popup menu was activated.
 
 {{{
 function id(id:String):Void {
