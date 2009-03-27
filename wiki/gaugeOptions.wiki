@@ -54,7 +54,7 @@
 
  Available options: `Gauge.USERDEFINED, Gauge.INMEDIATE, Gauge.SLOWEST, Gauge.SLOW, Gauge.INTERMEDIATE, Gauge.FAST, Gauge.FASTEST`
 
-*User defined rotation speed (see speed's `Gauge.USERDEFINED`)*
+*User defined rotation speed (use with speed: `Gauge.USERDEFINED`)*
  userDefinedSpeed:0.3s
 
 *Gauge value. Sets a new value for the gauge. It can trigger an animated transition (see speed).*
