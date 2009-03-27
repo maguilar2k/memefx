@@ -1,6 +1,6 @@
-#summary Accordion public functions
+#summary Accordion functions
 
-= Accordion's functions =
+= Accordion functions =
 
 *Select an image by ID*
  select(id:String)
@@ -16,3 +16,5 @@
  previous()
 
  example: `accordion.previous();`
+
+[accordOptions Accordion Options]
