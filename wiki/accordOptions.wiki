@@ -80,6 +80,8 @@
 *Items for the accordion*
  * images: `ImageItem[]`
 
+Check the [accordFunctions Accordion Functions]
+
 ----
 
 = Accordion Items =
