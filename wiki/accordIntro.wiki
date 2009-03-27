@@ -8,3 +8,4 @@
 
  * [accordHowto How to configure an ImageAccordion]
  * [accordOptions Accordion options]
+ * [accordFunctions Accordion functions]
