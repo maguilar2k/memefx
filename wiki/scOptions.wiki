@@ -135,3 +135,6 @@
 
 *Time to call functions (onResize, onMove)*
  timeToCallFunctions: 0.15s (default)
+
+*Animation Speed (time to relocate window)*
+ animationSpeed: 1s (default)
