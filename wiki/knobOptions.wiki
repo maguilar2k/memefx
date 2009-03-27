@@ -42,3 +42,6 @@
 
 *Gauge lines color*
  dialLinesColor: Color.BLACK (default)
+
+*Knob rotation speed*
+ speed: 2s (default)
