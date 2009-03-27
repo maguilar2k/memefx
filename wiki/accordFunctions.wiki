@@ -3,18 +3,18 @@
 = Accordion functions =
 
 *Select an image by ID*
- select(id:String)
+ * select(id:String)
 
  example: `accordion.select("moais");`
 
 *Select next image*
- next()
+ * next()
 
  example: `accordion.next();`
 
 *Select previous image*
- previous()
+ * previous()
 
  example: `accordion.previous();`
 
-[accordOptions Accordion Options]
+Check the [accordOptions Accordion Options]
