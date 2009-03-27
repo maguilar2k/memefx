@@ -1,0 +1,18 @@
+#summary Accordion public functions
+
+= Accordion's functions =
+
+*Select an image by ID*
+ select(id:String)
+
+ example: `accordion.select("moais");`
+
+*Select next image*
+ next()
+
+ example: `accordion.next();`
+
+*Select previous image*
+ previous()
+
+ example: `accordion.previous();`
