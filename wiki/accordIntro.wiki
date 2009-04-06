@@ -6,6 +6,6 @@
 
 = Details =
 
- * [accordHowto How to configure an ImageAccordion]
+ * [accordHowto How to configure an ImagesAccordion]
  * [accordOptions Accordion options]
  * [accordFunctions Accordion functions]
