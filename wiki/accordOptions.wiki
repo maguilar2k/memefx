@@ -9,7 +9,7 @@
  * height: 400.0
 
 *Accordion orientation*
- * height: `ImagesAccordion.HORIZONTAL`
+ * orientation: `ImagesAccordion.HORIZONTAL`
 
 *Minimum width for images (while image selected)*
  * minWidth: 40.0
