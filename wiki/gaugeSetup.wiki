@@ -31,7 +31,7 @@ You can customize the speed for the needle rotation by adding a simple:
 {{{
     speed: Gauge.SLOW
 }}}
-If you wish to have the gauge responding instantly to the change of value, use:
+If you wish to have the gauge responding instantaneously to the change of value, use:
 {{{
     speed: Gauge.INMEDIATE
 }}}
