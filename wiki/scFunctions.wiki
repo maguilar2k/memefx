@@ -14,7 +14,7 @@
 
  Place window at the specified location.
 
- * to     Combination of [Positioning location constants]
+ * to     Combination of [scPositioning location constants]
 
 ----
 
