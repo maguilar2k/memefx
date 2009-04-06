@@ -6,7 +6,7 @@
 
 *public function persistStage()*
 
- Stores in local file the position and size of the window.
+ Stores in local file (or using the Java Web Start persistence service) the position and size of the window.
 
 ----
 
