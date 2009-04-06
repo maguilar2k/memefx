@@ -6,7 +6,7 @@ http://lh6.ggpht.com/_esUBlqKjDzk/Sbipqh8nS0I/AAAAAAAAAwU/Dnuke5iKnQg/cornerLL.p
 
 This component allows you to display value changing information through virtual gauges.
 
-It includes several basic gauges in different orientations and sizes. You can customize several basic elements in the gauges or create your own using i.e. Adobe Illustrator and by adding a simple inherited JavaFX class.
+It includes [gaugeGType several basic gauges] in different orientations and sizes. You can customize several basic elements in the gauges or create your own using i.e. Adobe Illustrator and by adding a simple inherited JavaFX class.
 
 You can add highlighted ranges to the gauges or even replace completely their body and background, while you keep all the functionality of the component.
 
