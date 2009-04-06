@@ -14,7 +14,7 @@
 *Window height*
  height: 500.0 (default)
 
-*Filename to store persistent data, every app requires a different filename. Java Web Start apps require a filename only if you have more than one app in the same URL*
+*Filename to store persistent attributes of the stage(in the local filesystem in case of a stardard desktop app or using the Java Web Start persistence service in case of a JWS app signed or unsigned), every app requires a different filename. Java Web Start apps require a filename only if you have more than one app in the same URL path*
  persistFile: "persistStage.pos" (default)
 
 *Persist window size and position through sessions*
