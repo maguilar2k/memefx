@@ -7,6 +7,9 @@
 
  available options: `BasicKnob, OrangeKnob, SwitchKnob`
 
+*Knob mouse cursor*
+ * cursor: Cursor.DEFAULT
+
 *Contains the current value (can be set by the user)*
  value: 1.0 (default)
 
