@@ -11,6 +11,9 @@
 *Accordion orientation*
  * orientation: `ImagesAccordion.HORIZONTAL`
 
+*Accordion mouse cursor*
+ * cursor: `Cursor.DEFAULT`
+
 *Minimum width for images (while image selected)*
  * minWidth: 40.0
 
