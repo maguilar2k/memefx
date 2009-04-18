@@ -6,6 +6,7 @@ The TextHTML control supports pretty much the same attribute of the standard Tex
 
 {{{
 TextHTML {
+
     x: 20,
     y: 20,
     wrappingWidth: 300
@@ -15,10 +16,12 @@ TextHTML {
         "Island</font> <i>(Rapa Nui)</i> is a Polynesian island "
         "in the southeastern <font size=24 name=Verdana "
         "color=#ff5555>Pacific Ocean</font>. The island is a "
-        "<font name=TimesRoman size=24  color=#55ffff><a href=algo>"
+        "<font name=TimesRoman size=24  color=#55ffff><a href=something>"
         "special</a> <i>territory</i></font> of <a href=Chile>"
         "Chile</a>. Easter Island is famous for its monumental "
         "statues, called <font color=#00ff00 size=18>moai.</font></p>"
+
     onClick: function(link) { println(link) }
+
 }
 }}}
