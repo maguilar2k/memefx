@@ -2,7 +2,7 @@
 
 = Valid HTML =
 
-Note: It implements just a limited number of tags and options. HTML is pretty "strict", you can't use quotes for the values: {{{<font size="20">}}} is "incorrect", you should type {{{<font size=20>}}}. Neither you can include additional spaces inside the tags: {{{<font color= #ffff00>}}} is "incorrect", you should use {{{<font color=#ffff00>}}}. The component doesn't support images yet.
+Note: implements just a limited number of tags and options. The control's HTML is pretty "strict", i.e. you can't use quotes for the values: {{{<font size="20">}}} is incorrect, you should use {{{<font size=20>}}}. You can't include additional spaces inside the tags: {{{<font color= #ffff00>}}} is incorrect, you should use {{{<font color=#ffff00>}}}. The component doesn't support images yet.
 
 *{{{<font ...> ... </font>}}}*
 
