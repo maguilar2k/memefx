@@ -21,7 +21,7 @@
  * wrappingWidth:Number=200
 
 *Cursor when mouse over a link*
- * linkCursor:Cursor=Cursor.HAND
+ * linkCursor=Cursor.HAND
 
 *HTML Text content*
  * content:String
