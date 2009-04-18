@@ -1,0 +1,57 @@
+#summary TextHTML, HTML support
+
+= Valid HTML =
+
+* <font ...>
+
+  options:
+
+  * size=...
+    font size
+
+  * color=#rrggbb 
+    Hex (RGB) color
+
+  * name=... 
+    font name
+  
+* </font>
+
+* <a ...>
+
+  option:
+
+  * href=...
+    "link" or id returned when a link is clicked
+
+* </a>
+
+* <i> ... </i>
+
+  Italic font
+
+* <b> ... </b>
+
+  Bold font
+
+* <p align=...>
+
+  options:
+
+  * left
+  * right
+  * center
+  * justify
+
+* </p>
+
+* <br>
+
+* Special chars:
+
+  &quot;  ---> "
+  &nbsp;  ---> non-breaking space
+  &lt;    ---> <
+  &gt;    ---> >
+  &euro;  ---> €
+  &amp;   ---> &
