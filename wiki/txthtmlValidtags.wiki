@@ -50,8 +50,13 @@
 * Special chars:
 
   &quot;  ---> "
+
   &nbsp;  ---> non-breaking space
+
   &lt;    ---> <
+
   &gt;    ---> >
+
   &euro;  ---> €
+
   &amp;   ---> &
