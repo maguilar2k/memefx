@@ -2,10 +2,10 @@
 
 = Options =
 
-*component location x*
+*component x location*
  * x:Number=0
 
-*component location y*
+*component y location*
  * y:Number=0
 
 *interline space*
