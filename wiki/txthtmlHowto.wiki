@@ -2,6 +2,8 @@
 
 = How to setup a HTML text =
 
+The TextHTML control supports pretty much the same attribute of the standard Text control, to make it easy to replace it.
+
 {{{
 TextHTML {
     x: 20,
