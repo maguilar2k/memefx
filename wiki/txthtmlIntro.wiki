@@ -1,0 +1,10 @@
+#summary TextHTML intro
+
+= TextHTML =
+
+[http://lh3.ggpht.com/_esUBlqKjDzk/SenumBOdj3I/AAAAAAAABPU/ysg6fXV4uJM/texthtml.png]
+
+= Details =
+
+  * [txthtmlOptions TextHTML options]
+  * [txthtmlValidtags HTML tags & chars supported]
