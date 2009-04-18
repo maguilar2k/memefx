@@ -2,7 +2,8 @@
 
 = Valid HTML =
 
-* <font ...> ... < / font>
+
+* {{{<font ...> ... </font>}}}
 
   options:
 
@@ -15,22 +16,22 @@
   * name=... 
     font name
   
-* <a ...> ... < / a>
+* {{{<a ...> ... </a>}}}
 
   option:
 
   * href=...
     "link" or id returned when a link is clicked 
 
-* <i> ... < / i>
+* {{{<i> ... </i>}}}
 
   Italic font
 
-* <b> ... < / b>
+* {{{<b> ... </b>}}}
 
   Bold font
 
-* <p align=...> ... < / p>
+* {{{<p align=...> ... </p>}}}
 
   options:
 
