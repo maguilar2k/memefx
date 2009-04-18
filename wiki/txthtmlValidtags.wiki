@@ -4,52 +4,55 @@
 
 Note: It implements just a limited number of tags and options. HTML is pretty "strict", you can't use quotes for the values: {{{<font size="20">}}} is "incorrect", you should type {{{<font size=20>}}}. Neither you can include additional spaces inside the tags: {{{<font color= #ffff00>}}} is "incorrect", you should use {{{<font color=#ffff00>}}}. The component doesn't support images yet.
 
-* {{{<font ...> ... </font>}}}
+*{{{<font ...> ... </font>}}}*
 
-  options:
+ options:
 
-  * size=...
-    font size (in pixels)
+ * size=...
+   font size (in pixels)
 
-  * color=#rrggbb 
-    Hex (RGB) color
+ * color=#rrggbb 
+   Hex (RGB) color
 
-  * name=... 
-    font name
+ * name=... 
+   font name
   
-* {{{<a href=...> ... </a>}}}
+*{{{<a href=...> ... </a>}}}*
 
-  "link" or id returned when a link is clicked 
+ "link" or id returned when a link is clicked 
 
-* {{{<i> ... </i>}}}
+*{{{<i> ... </i>}}}*
 
-  Italic font
+ Italic font
 
-* {{{<b> ... </b>}}}
+*{{{<b> ... </b>}}}*
 
-  Bold font
+ Bold font
 
-* {{{<p align=...> ... </p>}}}
+*{{{<p align=...> ... </p>}}}*
 
-  options:
+ options:
 
-  * left
-  * right
-  * center
-  * justify
+ * left
 
-* <br>
+ * right
 
-* Special chars:
+ * center
 
-  &quot;  ---> "
+ * justify
 
-  &nbsp;  ---> non-breaking space
+*<br>*
 
-  &lt;    ---> <
+*Special chars:*
 
-  &gt;    ---> >
+ &quot;  ---> "
 
-  &euro;  ---> €
+ &nbsp;  ---> non-breaking space
 
-  &amp;   ---> &
+ &lt;    ---> <
+
+ &gt;    ---> >
+
+ &euro;  ---> €
+
+ &amp;   ---> &
