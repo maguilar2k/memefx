@@ -16,12 +16,9 @@
   * name=... 
     font name
   
-* {{{<a ...> ... </a>}}}
+* {{{<a href=...> ... </a>}}}
 
-  option:
-
-  * href=...
-    "link" or id returned when a link is clicked 
+  "link" or id returned when a link is clicked 
 
 * {{{<i> ... </i>}}}
 
