@@ -1,0 +1,36 @@
+#summary TextHTML options
+
+= Options =
+
+* component location x
+  * x:Number=0
+
+* component location y
+  * y:Number=0
+
+* interline space
+  * lineSpacing:Number=0.0
+
+* interparagraph space (current line height = 1.0)
+  * paragraphSpacing:Number=0.745;
+
+* function triggered by click on a link
+  * var onClick:function(String)
+
+* HTML Text component width
+  * wrappingWidth:Number=200
+
+* Cursor when mouse over a link
+  * linkCursor:Cursor=Cursor.HAND
+
+* HTML Text content
+  * content:String
+
+* default font attributes
+  * basicTextAttrib:TextAttributes = TextAttributes {
+        name:"Arial"
+        size:12.0
+        color:Color.BLACK
+        bold:false
+        italic:false
+    }
