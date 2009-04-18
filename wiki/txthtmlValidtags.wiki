@@ -2,7 +2,7 @@
 
 = Valid HTML =
 
-* <font ...>
+* <font ...> ... </font>
 
   options:
 
@@ -15,16 +15,12 @@
   * name=... 
     font name
   
-* </font>
-
-* <a ...>
+* <a ...> ... </a>
 
   option:
 
   * href=...
-    "link" or id returned when a link is clicked
-
-* </a>
+    "link" or id returned when a link is clicked 
 
 * <i> ... </i>
 
@@ -34,7 +30,7 @@
 
   Bold font
 
-* <p align=...>
+* <p align=...> ... </p>
 
   options:
 
@@ -42,8 +38,6 @@
   * right
   * center
   * justify
-
-* </p>
 
 * <br>
 
