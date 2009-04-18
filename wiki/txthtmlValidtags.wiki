@@ -2,7 +2,7 @@
 
 = Valid HTML =
 
-Note: It implements just a limited number of tags and options. HTML is pretty "strict", you can't user quotes for the values: <font size="20"> is "incorrect", you should type <font size=20>. I doesn't support images yet.
+Note: It implements just a limited number of tags and options. HTML is pretty "strict", you can't user quotes for the values: {{{<font size="20">}}} is "incorrect", you should type {{{<font size=20>}}}. I doesn't support images yet.
 
 * {{{<font ...> ... </font>}}}
 
