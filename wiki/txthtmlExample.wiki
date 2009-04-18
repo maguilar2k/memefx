@@ -2,6 +2,8 @@
 
 = Example =
 
+[http://lh3.ggpht.com/_esUBlqKjDzk/SenumBOdj3I/AAAAAAAABPU/ysg6fXV4uJM/texthtml.png]
+
 {{{
 Rectangle {
 
