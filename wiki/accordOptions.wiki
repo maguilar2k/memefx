@@ -99,7 +99,7 @@ Check the [accordFunctions Accordion Functions]
  * caption: String
 
 *Extended message displayed over the image*
- * message: String
+ * message: HTML String
 
 *Rectangular area to display the message*
  * messageArea: Rectangle2D
