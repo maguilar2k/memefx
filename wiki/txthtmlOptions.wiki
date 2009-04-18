@@ -27,7 +27,7 @@
   * content:String
 
 * default font attributes
-  * basicTextAttrib:TextAttributes = TextAttributes {
+  * basicTextAttrib = TextAttributes {
         name:"Arial"
         size:12.0
         color:Color.BLACK
