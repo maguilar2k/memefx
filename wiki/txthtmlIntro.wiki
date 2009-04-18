@@ -6,5 +6,7 @@
 
 = Details =
 
+  * [txthtmlHowto How to setup a HTML text control]
   * [txthtmlOptions TextHTML options]
   * [txthtmlValidtags HTML tags & chars supported]
+  * [txthtmlExample Example code]
