@@ -15,7 +15,7 @@
  * paragraphSpacing:Number=0.745;
 
 *function triggered by click on a link*
- * var onClick:function(String)
+ * onClick:function(String)
 
 *HTML Text component width*
  * wrappingWidth:Number=200
