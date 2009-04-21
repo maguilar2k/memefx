@@ -2,6 +2,21 @@
 
 = Options =
 
+*HTML Text component width*
+ * wrappingWidth:Number=200
+
+*HTML Text content (see HTML tags supported)*
+ * content:String
+
+*function triggered by a click on a link (in the current TextHTML control)*
+ * onLinkPressed:function(String)
+
+ * *NOTE*: You can setup a global function to capture ALL the links clicked across all the TextHTML controls, by setting up:
+
+   TextHTML.mainOnLinkPressed(your_function);
+
+   were... your_function:function(String)
+
 *component x location*
  * x:Number=0
 
@@ -14,21 +29,8 @@
 *interparagraph space (current line height = 1.0)*
  * paragraphSpacing:Number=0.745;
 
-*function triggered by click on a link (in the current TextHTML control)*
- * onLinkPressed:function(String)
-
- * NOTE: you can setup a global function to capture all the links clicked across all the TextHTML controls setting up: TextHTML.mainOnLinkPressed(your_function);
-
-   your_function:function(String)
-
-*HTML Text component width*
- * wrappingWidth:Number=200
-
 *Cursor when mouse over a link*
  * linkCursor=Cursor.HAND
-
-*HTML Text content*
- * content:String
 
 *default font attributes*
  * basicTextAttrib = TextAttributes { name:"Arial", size:12.0, color:Color.BLACK, bold:false, italic:false }
