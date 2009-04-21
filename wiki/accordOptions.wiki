@@ -98,8 +98,8 @@ Check the [accordFunctions Accordion Functions]
 *Caption text*
  * caption: String
 
-*Extended message displayed over the image*
- * message: HTML String
+*Extended message displayed over the image (con include basic HTML tags)*
+ * message: String
 
 *Rectangular area to display the message*
  * messageArea: Rectangle2D
@@ -121,3 +121,6 @@ Check the [accordFunctions Accordion Functions]
 
 *Function associated to mouse over the image item*
  * onMouseEntered: function(`ImageItem`)
+
+*Function associated to click over a link in the extended description*
+ * onLinkPressed: function(String)
