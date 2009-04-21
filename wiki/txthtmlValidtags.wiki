@@ -41,7 +41,7 @@ Note: implements just a limited number of tags and options. The control's HTML i
 
  * justify
 
-*<br>*
+*{{{<br>}}}*
 
 *Special chars:*
 
