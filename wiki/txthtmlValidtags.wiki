@@ -14,7 +14,7 @@ Note: implements just a limited number of tags and options. The control's HTML i
  * color=#rrggbb 
    Hex (RGB) color
 
- * name=... 
+ * face=... 
    font name
   
 *{{{<a href=...> ... </a>}}}*
