@@ -21,7 +21,7 @@ TextHTML {
         "Chile</a>. Easter Island is famous for its monumental "
         "statues, called <font color=#00ff00 size=18>moai.</font></p>"
 
-    onClick: function(link) { println(link) }
+    onLinkPressed: function(link) { println(link) }
 
 }
 }}}
