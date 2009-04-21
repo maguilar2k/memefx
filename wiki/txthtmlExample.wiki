@@ -40,4 +40,11 @@ TextHTML {
     onLinkPressed: function(link) { println(link) }
 
 }
+
+/* GLOBAL function to capture all links clicked, accross all the TextHTML controls */
+TextHTML.mainOnLinkPressed(globalFunction);
+
+function globalFunction(link:String) {
+    ...
+}
 }}}
