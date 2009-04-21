@@ -31,6 +31,8 @@ Note: implements just a limited number of tags and options. The control's HTML i
 
 *{{{<p align=...> ... </p>}}}*
 
+ Paragraph & alignment
+
  options:
 
  * left
@@ -42,6 +44,8 @@ Note: implements just a limited number of tags and options. The control's HTML i
  * justify
 
 *{{{<br>}}}*
+
+ break-line
 
 *Special chars:*
 
