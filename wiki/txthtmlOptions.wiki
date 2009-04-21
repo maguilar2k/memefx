@@ -14,8 +14,12 @@
 *interparagraph space (current line height = 1.0)*
  * paragraphSpacing:Number=0.745;
 
-*function triggered by click on a link*
- * onClick:function(String)
+*function triggered by click on a link (in the current TextHTML control)*
+ * onLinkPressed:function(String)
+
+ * NOTE: you can setup a global function to capture all the links clicked across all the TextHTML controls setting up: TextHTML.mainOnLinkPressed(your_function);
+
+   your_function:function(String)
 
 *HTML Text component width*
  * wrappingWidth:Number=200
