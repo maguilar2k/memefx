@@ -8,12 +8,44 @@
 *HTML Text content (see HTML tags supported)*
  * content:String
 
+*Background color on mouseOver a link (in the current TextHTML control)*
+ * onLinkEnteredColor:Color
+
+ * *NOTE*: You can setup a global background color for ALL the mouseOver links across all the TextHTML controls, by setting up:
+
+   TextHTML.mainOnLinkEnteredColor=color;
+
+*Background color on mouseExit a link (in the current TextHTML control)*
+ * onLinkExitedColor:Color
+
+ * *NOTE*: You can setup a global background color for ALL the mouseExit links across all the TextHTML controls, by setting up:
+
+   TextHTML.mainOnLinkExitedColor=color;
+
 *function triggered by a click on a link (in the current TextHTML control)*
  * onLinkPressed:function(String)
 
  * *NOTE*: You can setup a global function to capture ALL the links clicked across all the TextHTML controls, by setting up:
 
    TextHTML.mainOnLinkPressed(your_function);
+
+   were... your_function:function(String)
+
+*function triggered by a mouseOver on a link (in the current TextHTML control)*
+ * onLinkEntered:function(String)
+
+ * *NOTE*: You can setup a global function to capture ALL the mouseOver links across all the TextHTML controls, by setting up:
+
+   TextHTML.mainOnLinkEntered(your_function);
+
+   were... your_function:function(String)
+
+*function triggered by a mouseExit a link (in the current TextHTML control)*
+ * onLinkExited:function(String)
+
+ * *NOTE*: You can setup a global function to capture ALL the mouseExit links across all the TextHTML controls, by setting up:
+
+   TextHTML.mainOnLinkExited(your_function);
 
    were... your_function:function(String)
 
