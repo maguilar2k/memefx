@@ -40,6 +40,7 @@ TextHTML {
     y: 20,
     wrappingWidth: 300
 
+    /* base font attributes */
     basicTextAttrib: TextAttributes {
         color:Color.WHITE
         size:17
