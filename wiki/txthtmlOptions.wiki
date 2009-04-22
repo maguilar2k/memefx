@@ -5,8 +5,26 @@
 *HTML Text component width*
  * wrappingWidth:Number=200
 
-*HTML Text content (see HTML tags supported)*
+*HTML Text content (see [txthtmlValidtags HTML tags supported])*
  * content:String
+
+*component x location*
+ * x:Number=0
+
+*component y location*
+ * y:Number=0
+
+*interline space*
+ * lineSpacing:Number=0.0
+
+*interparagraph space (current line height = 1.0)*
+ * paragraphSpacing:Number=0.745;
+
+*Cursor when mouse over a link*
+ * linkCursor=Cursor.HAND
+
+*default font attributes*
+ * basicTextAttrib = TextAttributes { name:"Arial", size:12.0, color:Color.BLACK, bold:false, italic:false }
 
 *Background color on mouseOver a link (in the current TextHTML control)*
  * onLinkEnteredColor:Color
@@ -48,21 +66,3 @@
    TextHTML.mainOnLinkExited(your_function);
 
    were... your_function:function(String)
-
-*component x location*
- * x:Number=0
-
-*component y location*
- * y:Number=0
-
-*interline space*
- * lineSpacing:Number=0.0
-
-*interparagraph space (current line height = 1.0)*
- * paragraphSpacing:Number=0.745;
-
-*Cursor when mouse over a link*
- * linkCursor=Cursor.HAND
-
-*default font attributes*
- * basicTextAttrib = TextAttributes { name:"Arial", size:12.0, color:Color.BLACK, bold:false, italic:false }
