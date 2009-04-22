@@ -19,7 +19,7 @@ Note: implements just a limited number of tags and options. The control's HTML i
   
 *{{{<a href=...> ... </a>}}}*
 
- "link" or id returned when a link is clicked 
+ href= "link" or id returned when a link is clicked 
 
 *{{{<i> ... </i>}}}*
 
