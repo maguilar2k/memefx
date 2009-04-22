@@ -5,6 +5,24 @@
 [http://lh3.ggpht.com/_esUBlqKjDzk/SenumBOdj3I/AAAAAAAABPU/ysg6fXV4uJM/texthtml.png]
 
 {{{
+
+/* GLOBAL background color for links, across all the TextHTML controls */
+TextHTML.mainOnLinkExitedColor:Color.DARKBLUE;
+
+/* GLOBAL function to capture all mouse over link, across all the TextHTML controls */
+TextHTML.mainOnLinkEntered = globalFunction;
+
+/* GLOBAL function to capture all links clicked, across all the TextHTML controls */
+TextHTML.mainOnLinkPressed = globalFunction;
+
+function globalFunction(link:String) {
+    ...
+}
+
+
+...
+
+
 Rectangle {
 
     x: 5, y: 14
@@ -40,12 +58,11 @@ TextHTML {
     /* custom function for the links clicked in THIS CONTROL */
     onLinkPressed: function(link) { println(link) }
 
-}
+    /* custom background for mouse over a link */
+    onLinkEnteredColor: Color.RED
 
-/* GLOBAL function to capture all links clicked, accross all the TextHTML controls */
-TextHTML.mainOnLinkPressed(globalFunction);
+    /* custom function triggered on mouse exiting a link in THIS CONTROL */
+    onLinkExited: function(link) { println(link) }
 
-function globalFunction(link:String) {
-    ...
 }
 }}}
