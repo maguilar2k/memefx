@@ -47,6 +47,8 @@ Note: implements just a limited number of tags and options. The control's HTML i
 
  break-line
 
+
+
 *Special chars:*
 
  &quot;  ---> "
