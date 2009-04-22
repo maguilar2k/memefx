@@ -59,7 +59,7 @@ TextHTML {
     /* custom function for the links clicked in THIS CONTROL */
     onLinkPressed: function(link) { println(link) }
 
-    /* custom background for mouse over a link */
+    /* custom background color for mouse over a link in THIS CONTROL */
     onLinkEnteredColor: Color.RED
 
     /* custom function triggered on mouse exiting a link in THIS CONTROL */
