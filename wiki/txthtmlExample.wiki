@@ -7,7 +7,7 @@
 {{{
 
 /* GLOBAL background color for links, across all the TextHTML controls */
-TextHTML.mainOnLinkExitedColor:Color.DARKBLUE;
+TextHTML.mainOnLinkExitedColor = Color.DARKBLUE;
 
 /* GLOBAL function to capture all mouse over link, across all the TextHTML controls */
 TextHTML.mainOnLinkEntered = globalFunction;
