@@ -13,4 +13,4 @@
 
 = TextHTML demo =
 
-[http://www.youtube.com/watch?v=fluBIC_TXBQ]
+<wiki:video url="http://www.youtube.com/watch?v=fluBIC_TXBQ"/>
